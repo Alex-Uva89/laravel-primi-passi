@@ -8,5 +8,12 @@
 </head>
 <body>
     <h1>hello world</h1>
+    <ul>
+        <li><a href="{{ route('uno') }}">uno</a></li>
+        <li><a href="{{ route('due') }}">due</a></li>
+        <li><a href="{{ route('tre') }}">tre</a></li>
+        <li><a href="{{ route('quattro') }}">quattro</a></li>
+        
+    </ul>
 </body>
 </html>
